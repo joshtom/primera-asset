@@ -1,16 +1,3 @@
-/* =================================
-------------------------------------
-  Cryptocurrency - Landing Page
-  Version: 1.0
- ------------------------------------ 
- ====================================*/
-
-
-
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
-
 @font-face {
 	font-family: 'Futura';
 	src: url("../fonts/Futura.woff");
@@ -30,7 +17,8 @@ h3,
 h4,
 h5,
 h6 {
-	color: #20509e;
+	/* color: #20509e; */
+	color: #08740E;
 	margin: 0;
 	font-weight: 500;
 	font-family: "Futura", sans-serif;
@@ -171,7 +159,8 @@ ol {
 }
 
 .site-btn.sb-gradients.sbg-line {
-	color: #20509e;
+	/* color: #20509e; */
+	color: #08740E;
 	z-index: 1;
 }
 
@@ -188,7 +177,7 @@ ol {
 }
 
 .site-btn.sb-gradients.sbg-line:hover {
-	color: #20509e;
+	color: #6a7586;
 }
 
 .gradient-bg,
@@ -199,11 +188,11 @@ ol {
 .comment-form label {
 	/* FF3.6-15 */
 	/* Chrome10-25,Safari5.1-6 */
-	background: -webkit-gradient(linear, left top, right top, from(#3e2bce), color-stop(100%, #2dd3aa), color-stop(100%, #2dd3aa), to(#2dd3aa));
-	background: -o-linear-gradient(left, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
-	background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+	background: -webkit-gradient(linear, left top, right top, from(#08740E), color-stop(100%, #2dd3aa), color-stop(100%, #2dd3aa), to(#2dd3aa));
+	background: -o-linear-gradient(left, #08740E 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+	background: linear-gradient(to right, #08740E 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e2bce', endColorstr='#2dd3aa', GradientType=1);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08740E', endColorstr='#2dd3aa', GradientType=1);
 	/* IE6-9 */
 }
 
@@ -342,7 +331,8 @@ ol {
 	height: 900px;
 	padding-top: 260px;
 	display: block;
-	background-image: url("../img/hero-bg.png");
+	/* background-image: url("../img/hero-bg.png"); */
+	background-image: url("../img/hero-bg-primera.png");
 	background-size: cover;
 	background-color: #f3f7f9;
 	background-position: right top;
@@ -492,7 +482,7 @@ ol {
 	height: 56px;
 	top: -40px;
 	right: -40%;
-	background: url("../img/process-line.png") no-repeat scroll 0 0/cover;
+	background: url("../img/process-line-primera.png") no-repeat scroll 0 0/cover;
 }
 
 /*---------------------
@@ -520,7 +510,7 @@ ol {
 	padding-top: 14px;
 	line-height: 1.4;
 	color: #fff;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .fact i {
@@ -544,6 +534,10 @@ ol {
 
 .team-members {
 	margin: 0 -10px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .member {
@@ -583,11 +577,11 @@ ol {
 }
 
 .member:hover .member-info {
-	opacity: 1;
+	/* opacity: 1; */
 }
 
 .member:hover .member-text {
-	opacity: 0;
+	/* opacity: 0; */
 }
 
 .member-img {
@@ -1771,10 +1765,18 @@ ol {
 		margin-top: 20px;
 	}
 }
+/* Custom CSS here */
+.logo-img {
+	width: 50px;
+}
+/* End of custom css here */
 
 /* small Mobile :320px. */
 
 @media only screen and (max-width: 479px) {
+	.team-members {
+		display: block;
+	}
 	.review-text {
 		padding: 0 45px;
 	}
