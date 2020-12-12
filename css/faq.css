@@ -1,0 +1,39 @@
+.faq-banner {
+    margin-top: 100px;
+    background: #07600C;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.faq-banner h1 {
+    color: #fff;
+}
+
+.faq-container {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.faq-container article {
+    text-align: justify;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 678px) {
+    .faq-container article {
+        font-size: 1.5rem;
+    }
+}
+.faq-footer {
+    background-color: #f1f1f1;
+}
+
+summary {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    margin-top: 20px;
+}
