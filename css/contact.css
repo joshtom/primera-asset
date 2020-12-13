@@ -1,0 +1,52 @@
+.contact-banner {
+    margin-top: 100px;
+    background: #07600C;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.contact-banner h1, p {
+    color: #fff;
+}
+.contact-banner p {
+    font-size: 20px;
+    width: 30%;
+    font-weight: lighter;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-banner p {
+        width: 90%;
+    }
+}
+
+.contact-container {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.contact-container article {
+    text-align: justify;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 678px) {
+    .contact-container article {
+        font-size: 1.5rem;
+    }
+}
+.contact-footer {
+    background-color: #f1f1f1;
+}
+
+summary {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    margin-top: 20px;
+}
