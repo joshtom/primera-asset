@@ -58,3 +58,7 @@ summary {
     padding: 20px;
     margin-top: 20px;
 }
+.form-control:focus {
+    border-color: green !important;
+    box-shadow: none !important;
+}
