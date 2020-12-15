@@ -1,6 +1,9 @@
 .contact-banner {
     margin-top: 100px;
-    background: #07600C;
+    background-image:
+    linear-gradient(to top, rgba(8, 110, 15, .4), rgba(0, 0, 0, 5.5)),
+    url('../img/contact.jpg');
+    background-position: 5% -41%;
     width: 100%;
     min-height: 300px;
     display: flex;
